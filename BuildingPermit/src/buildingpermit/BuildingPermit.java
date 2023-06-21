@@ -9,8 +9,8 @@ package ca.sheridancollege;
  * @author orlan
  */
 public class BuildingPermit {
-    public enum permits {BP2023-001, BP2023-002, BP2023-003, BP2023-004};
-    public enum categories = { Residential, Commercial, Industrial, Agricultural };
+    public enum permits {BP2023-001, BP2023-002, BP2023-003, BP2023-004, AQSAA_PERMIT};
+    public enum categories = { Residential, Commercial, Industrial, Agricultural, AQSAA_CATEGORY };
     
     private Permit permit;
     private Category category;
